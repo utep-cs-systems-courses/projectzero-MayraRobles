@@ -31,7 +31,8 @@ int main()
       break;
     case 'a':
       puts("You selected arrow:");
-      print_arrow(13, 9, 9, 8);
+      print_arrow_bitmap();
+      // print_arrow_with_square_triangle(13, 9, 9, 8);
       break;
     case 'q':
       puts("Bye!");
